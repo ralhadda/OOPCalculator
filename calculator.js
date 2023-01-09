@@ -36,7 +36,7 @@ export default class Calculator {
     this.primaryOperand.innerHTML = displayNumber(this.firstNumber);
   }
   chooseOperation(operation) {
-    if (this.operation === "") return;
+    if (this.operation && this.operation.textContent !== "") return;
     this.operation = operation;
     this.secondNumber = this.firstNumber;
     this.firstNumber = 0;
