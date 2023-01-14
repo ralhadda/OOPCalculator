@@ -1,0 +1,27 @@
+{
+  "name": "oopcalculator",
+  "version": "1.0.0",
+  "description": "This is a calculator project using OOP principles",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "node_modules/.bin/cypress open",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ralhadda/OOPCalculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ralhadda/OOPCalculator/issues"
+  },
+  "homepage": "https://github.com/ralhadda/OOPCalculator#readme",
+  "devDependencies": {
+    "cypress": "^12.3.0"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}

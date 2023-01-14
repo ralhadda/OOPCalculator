@@ -51,8 +51,7 @@ export default class Calculator {
         result = parseFloat(this.secondNumber) * parseFloat(this.firstNumber);
         break;
       case "÷":
-        result =
-          parseFloat(this.this.secondNumber) / parseFloat(this.firstNumber);
+        result = parseFloat(this.secondNumber) / parseFloat(this.firstNumber);
         break;
       case "+":
         result = parseFloat(this.secondNumber) + parseFloat(this.firstNumber);
